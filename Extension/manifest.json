@@ -1,0 +1,30 @@
+{
+	"name": "BitBug",
+	"version": "0.1",
+	"manifest_version": 2,
+	"description": "Register application bugs simply by clicking on an element and assigning a developer",
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Bitcube Systems internal bug indicator",
+		"default_popup": "extension/index.html"
+	},
+	"content_scripts": [{
+		"js": [
+			"extension/assets/js/jquery.min.js",
+			"extension/assets/js/html.js",
+			"extension/assets/js/main.js",
+			"extension/assets/js/events.js"
+		],
+		"css": ["extension/assets/css/page.css",
+		"extension/assets/css/animate.css"],
+		"matches": [ "http://*/*" ],
+		"run_at": "document_end"
+	}],
+	"icons": {
+		"128": "icon.png"
+	},
+	"permissions": [
+		"activeTab",
+		"tabs", "http://*/*"
+	]
+}

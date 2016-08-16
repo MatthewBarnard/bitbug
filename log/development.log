@@ -95,3 +95,9 @@ Started GET "/" for 127.0.0.1 at 2016-08-15 21:17:59 +0200
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/matthewbarnard/.rvm/gems/ruby-2.1.5/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
 Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-16 10:50:20 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/matthewbarnard/.rvm/gems/ruby-2.1.5/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (4.4ms)
+Completed 200 OK in 40ms (Views: 28.7ms | ActiveRecord: 0.0ms)
