@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+/*@import "bootstrap.min.css";*/
+/*@import "style.css";*/
+/*@import "custom.css";*/
+
+body, html {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+
