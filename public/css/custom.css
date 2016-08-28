@@ -141,3 +141,10 @@
     width: 24px;
 }
 
+i {
+    color:black !important;
+}
+.padded {
+    padding-right:5px;
+}
+

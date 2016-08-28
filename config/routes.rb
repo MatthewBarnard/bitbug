@@ -1,20 +1,20 @@
 Rails.application.routes.draw do
+  get 'projects/index'
+
   resources :dashboard
 
-  # scope :administrator do
-  #   scope :css do
-  #     get 'graph.css', to: 'administrator#index'
-  #     get 'clndr.css', to: 'administrator#index'
-  #     get 'owl.carousel.css', to: 'administrator#index'
-  #     get 'demo.css', to: 'administrator#index'
-  #     # get 'graph.css', to: '/'
-  #   end
-  #   scope :js do
-  #
-  #   end
-  # end
+  namespace :administrator do
+    controller :dashboard do
+      get 'dashboard' => :index
+    end
 
-  controller :dashboard do
-    get '/administrator/dashboard' => :index
+    controller :projects do
+      scope :projects do
+        get 'all' => :index
+        get 'create' => :create
+      end
+
+    end
+
   end
 end

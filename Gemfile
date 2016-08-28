@@ -27,6 +27,8 @@ gem 'tzinfo-data'
 
 gem 'identicon'
 
+gem 'jquery-turbolinks'
+
 
 
 # Use ActiveModel has_secure_password
