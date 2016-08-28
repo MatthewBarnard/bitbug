@@ -18599,3 +18599,873 @@ Started GET "/administrator/projects/all" for 127.0.0.1 at 2016-08-21 02:29:42 +
 Processing by Administrator::ProjectsController#index as HTML
   Rendered administrator/projects/index.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 118ms (Views: 117.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-28 21:35:11 +0200
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  vendor/cache/ruby/2.1.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:392:in `check_pending!'
+  vendor/cache/ruby/2.1.0/gems/activerecord-4.2.6/lib/active_record/migration.rb:373:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:541:in `handle_request'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:388:in `process_client'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:270:in `block in run'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.4ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (34.7ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (58.8ms)
+  [1m[36m (29.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (3.0ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateProjects (20160821000102)
+  [1m[35m (6.8ms)[0m  BEGIN
+  [1m[36m (31.6ms)[0m  [1mCREATE TABLE "projects" ("id" serial primary key, "title" character varying, "description" text, "code" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (5.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20160821000102"]]
+  [1m[36m (6.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (3.8ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'projects'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/notification" for 127.0.0.1 at 2016-08-28 21:36:13 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/notification"):
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:541:in `handle_request'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:388:in `process_client'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:270:in `block in run'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.2ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2016-08-28 21:38:08 +0200
+
+ActionController::RoutingError (No route matches [GET] "/notification"):
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:541:in `handle_request'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:388:in `process_client'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:270:in `block in run'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-28 21:38:15 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (1.3ms)
+Completed 200 OK in 17ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/administrator/dashboard" for 127.0.0.1 at 2016-08-28 21:38:32 +0200
+Processing by Administrator::DashboardController#index as HTML
+  Rendered administrator/dashboard/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 742ms (Views: 501.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for 127.0.0.1 at 2016-08-28 21:38:33 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-28 21:38:33 +0200
+
+
+Started GET "/assets/administrator/projects.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:38:33 +0200
+
+
+Started GET "/assets/application.self-e6ab5ed7161efa398e64a326defc099b6b34b713fc2f56a1f7487a7e8fb500eb.css?body=1" for 127.0.0.1 at 2016-08-28 21:38:33 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-28 21:38:33 +0200
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:38:33 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-28 21:38:33 +0200
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-08-28 21:38:33 +0200
+
+
+Started GET "/assets/administrator/projects.self-f6121e56fe97fc770f52374c06cc283069ae2938b15d716ef85ad95bae55cc53.js?body=1" for 127.0.0.1 at 2016-08-28 21:38:33 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-08-28 21:38:33 +0200
+
+
+Started GET "/administrator/projects/all" for 127.0.0.1 at 2016-08-28 21:39:22 +0200
+Processing by Administrator::ProjectsController#index as HTML
+  Rendered administrator/projects/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/administrator/projects/all" for 127.0.0.1 at 2016-08-28 21:39:26 +0200
+Processing by Administrator::ProjectsController#index as HTML
+  Rendered administrator/projects/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:39:26 +0200
+
+
+Started GET "/assets/administrator/projects.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:39:26 +0200
+
+
+Started GET "/assets/application.self-e6ab5ed7161efa398e64a326defc099b6b34b713fc2f56a1f7487a7e8fb500eb.css?body=1" for 127.0.0.1 at 2016-08-28 21:39:26 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-28 21:39:26 +0200
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for 127.0.0.1 at 2016-08-28 21:39:26 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-28 21:39:26 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-28 21:39:26 +0200
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-08-28 21:39:26 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-08-28 21:39:26 +0200
+
+
+Started GET "/assets/administrator/projects.self-f6121e56fe97fc770f52374c06cc283069ae2938b15d716ef85ad95bae55cc53.js?body=1" for 127.0.0.1 at 2016-08-28 21:39:26 +0200
+
+
+Started GET "/notification" for 127.0.0.1 at 2016-08-28 21:40:22 +0200
+
+ActionController::RoutingError (No route matches [GET] "/notification"):
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:541:in `handle_request'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:388:in `process_client'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:270:in `block in run'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (5.9ms)
+
+
+Started GET "/administrator/projects/create" for 127.0.0.1 at 2016-08-28 21:41:14 +0200
+Processing by Administrator::ProjectsController#create as HTML
+  Rendered administrator/projects/create.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 52ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/administrator/projects/create" for 127.0.0.1 at 2016-08-28 21:42:07 +0200
+Processing by Administrator::ProjectsController#create as HTML
+  Rendered administrator/projects/create.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 83ms (Views: 81.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/administrator/projects.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:42:07 +0200
+
+
+Started GET "/assets/application.self-e6ab5ed7161efa398e64a326defc099b6b34b713fc2f56a1f7487a7e8fb500eb.css?body=1" for 127.0.0.1 at 2016-08-28 21:42:07 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-28 21:42:07 +0200
+
+
+Started GET "/assets/administrator/projects.self-7ac7bb2a7b39152bd15a6c6fbb5cbc61beacdb0f67faf297b8b818bfce37783f.js?body=1" for 127.0.0.1 at 2016-08-28 21:42:07 +0200
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for 127.0.0.1 at 2016-08-28 21:42:07 +0200
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:42:07 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-28 21:42:07 +0200
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-08-28 21:42:07 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-28 21:42:07 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-08-28 21:42:07 +0200
+
+
+Started GET "/notification" for 127.0.0.1 at 2016-08-28 21:42:09 +0200
+
+ActionController::RoutingError (No route matches [GET] "/notification"):
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:541:in `handle_request'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:388:in `process_client'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:270:in `block in run'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (5.0ms)
+
+
+Started GET "/administrator/dashboard" for 127.0.0.1 at 2016-08-28 21:42:33 +0200
+Processing by Administrator::DashboardController#index as HTML
+  Rendered administrator/dashboard/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 291ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/administrator/dashboard" for 127.0.0.1 at 2016-08-28 21:42:38 +0200
+Processing by Administrator::DashboardController#index as HTML
+  Rendered administrator/dashboard/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 340ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/administrator/dashboard" for 127.0.0.1 at 2016-08-28 21:42:39 +0200
+Processing by Administrator::DashboardController#index as HTML
+  Rendered administrator/dashboard/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 248ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/administrator/projects/all" for 127.0.0.1 at 2016-08-28 21:43:34 +0200
+Processing by Administrator::ProjectsController#index as HTML
+  Rendered administrator/projects/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2016-08-28 21:44:08 +0200
+
+ActionController::RoutingError (No route matches [GET] "/notification"):
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:541:in `handle_request'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:388:in `process_client'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:270:in `block in run'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (6.6ms)
+
+
+Started GET "/administrator/projects/all" for 127.0.0.1 at 2016-08-28 21:44:47 +0200
+Processing by Administrator::ProjectsController#index as HTML
+  Rendered administrator/projects/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:44:47 +0200
+
+
+Started GET "/assets/administrator/projects.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:44:47 +0200
+
+
+Started GET "/assets/application.self-e6ab5ed7161efa398e64a326defc099b6b34b713fc2f56a1f7487a7e8fb500eb.css?body=1" for 127.0.0.1 at 2016-08-28 21:44:47 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-28 21:44:47 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-28 21:44:47 +0200
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for 127.0.0.1 at 2016-08-28 21:44:47 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-28 21:44:47 +0200
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-08-28 21:44:47 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-08-28 21:44:47 +0200
+
+
+Started GET "/assets/administrator/projects.self-7ac7bb2a7b39152bd15a6c6fbb5cbc61beacdb0f67faf297b8b818bfce37783f.js?body=1" for 127.0.0.1 at 2016-08-28 21:44:47 +0200
+
+
+Started GET "/administrator/projects/all" for 127.0.0.1 at 2016-08-28 21:44:53 +0200
+Processing by Administrator::ProjectsController#index as HTML
+  Rendered administrator/projects/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:44:53 +0200
+
+
+Started GET "/assets/administrator/projects.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:44:53 +0200
+
+
+Started GET "/assets/application.self-e6ab5ed7161efa398e64a326defc099b6b34b713fc2f56a1f7487a7e8fb500eb.css?body=1" for 127.0.0.1 at 2016-08-28 21:44:53 +0200
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-08-28 21:44:53 +0200
+
+
+Started GET "/assets/administrator/projects.self-7ac7bb2a7b39152bd15a6c6fbb5cbc61beacdb0f67faf297b8b818bfce37783f.js?body=1" for 127.0.0.1 at 2016-08-28 21:44:53 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-28 21:44:53 +0200
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for 127.0.0.1 at 2016-08-28 21:44:53 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-28 21:44:53 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-28 21:44:53 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-08-28 21:44:53 +0200
+
+
+Started GET "/administrator/projects/all" for 127.0.0.1 at 2016-08-28 21:45:12 +0200
+Processing by Administrator::ProjectsController#index as HTML
+  Rendered administrator/projects/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 82ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:45:12 +0200
+
+
+Started GET "/assets/administrator/projects.self-7f59419190723b1a7ab8365f0723bee3cbec9f5d70b0db7d122d5ce0569ecde8.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:12 +0200
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:12 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:12 +0200
+
+
+Started GET "/assets/application.self-e6ab5ed7161efa398e64a326defc099b6b34b713fc2f56a1f7487a7e8fb500eb.css?body=1" for 127.0.0.1 at 2016-08-28 21:45:12 +0200
+
+
+Started GET "/assets/administrator/projects.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:45:12 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:12 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:12 +0200
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:12 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:12 +0200
+
+
+Started GET "/administrator/projects/all" for 127.0.0.1 at 2016-08-28 21:45:17 +0200
+Processing by Administrator::ProjectsController#index as HTML
+  Rendered administrator/projects/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:45:17 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:17 +0200
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:17 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:17 +0200
+
+
+Started GET "/assets/application.self-e6ab5ed7161efa398e64a326defc099b6b34b713fc2f56a1f7487a7e8fb500eb.css?body=1" for 127.0.0.1 at 2016-08-28 21:45:17 +0200
+
+
+Started GET "/assets/administrator/projects.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:45:17 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:17 +0200
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:17 +0200
+
+
+Started GET "/assets/administrator/projects.self-7f59419190723b1a7ab8365f0723bee3cbec9f5d70b0db7d122d5ce0569ecde8.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:17 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:17 +0200
+
+
+Started GET "/administrator/projects/all" for 127.0.0.1 at 2016-08-28 21:45:32 +0200
+Processing by Administrator::ProjectsController#index as HTML
+  Rendered administrator/projects/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 31ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/administrator/projects.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:45:32 +0200
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:45:32 +0200
+
+
+Started GET "/assets/application.self-e6ab5ed7161efa398e64a326defc099b6b34b713fc2f56a1f7487a7e8fb500eb.css?body=1" for 127.0.0.1 at 2016-08-28 21:45:32 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:32 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:32 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:32 +0200
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:32 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:32 +0200
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:32 +0200
+
+
+Started GET "/assets/administrator/projects.self-f6121e56fe97fc770f52374c06cc283069ae2938b15d716ef85ad95bae55cc53.js?body=1" for 127.0.0.1 at 2016-08-28 21:45:32 +0200
+
+
+Started GET "/notification" for 127.0.0.1 at 2016-08-28 21:46:09 +0200
+
+ActionController::RoutingError (No route matches [GET] "/notification"):
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:541:in `handle_request'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:388:in `process_client'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:270:in `block in run'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (7.6ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2016-08-28 21:48:08 +0200
+
+ActionController::RoutingError (No route matches [GET] "/notification"):
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:541:in `handle_request'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:388:in `process_client'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:270:in `block in run'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.9ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (12.3ms)
+
+
+Started GET "/administrator/projects/all" for 127.0.0.1 at 2016-08-28 21:48:26 +0200
+Processing by Administrator::ProjectsController#index as HTML
+  Rendered administrator/projects/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 86ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/administrator/projects.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:48:27 +0200
+
+
+Started GET "/assets/administrator/projects.self-6e71ba1eda720a39b509881945bbe4cd5a3c03aa4f8cbdc613cc217080c3e218.js?body=1" for 127.0.0.1 at 2016-08-28 21:48:27 +0200
+
+
+Started GET "/assets/application.self-e6ab5ed7161efa398e64a326defc099b6b34b713fc2f56a1f7487a7e8fb500eb.css?body=1" for 127.0.0.1 at 2016-08-28 21:48:27 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-28 21:48:27 +0200
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for 127.0.0.1 at 2016-08-28 21:48:27 +0200
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:48:27 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-28 21:48:27 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-28 21:48:27 +0200
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-08-28 21:48:27 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-08-28 21:48:27 +0200
+
+
+Started GET "/administrator/projects/projects/all" for 127.0.0.1 at 2016-08-28 21:48:31 +0200
+
+ActionController::RoutingError (No route matches [GET] "/administrator/projects/projects/all"):
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:541:in `handle_request'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:388:in `process_client'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:270:in `block in run'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.1ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (53.2ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.1ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (43.3ms)
+
+
+Started GET "/administrator/dashboard" for 127.0.0.1 at 2016-08-28 21:48:35 +0200
+Processing by Administrator::DashboardController#index as HTML
+  Rendered administrator/dashboard/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 277ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/administrator/projects/all" for 127.0.0.1 at 2016-08-28 21:48:37 +0200
+Processing by Administrator::ProjectsController#index as HTML
+  Rendered administrator/projects/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/administrator/projects/all" for 127.0.0.1 at 2016-08-28 21:48:59 +0200
+Processing by Administrator::ProjectsController#index as HTML
+  Rendered administrator/projects/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 94ms (Views: 92.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:48:59 +0200
+
+
+Started GET "/assets/application.self-e6ab5ed7161efa398e64a326defc099b6b34b713fc2f56a1f7487a7e8fb500eb.css?body=1" for 127.0.0.1 at 2016-08-28 21:48:59 +0200
+
+
+Started GET "/assets/administrator/projects.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:48:59 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-28 21:48:59 +0200
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for 127.0.0.1 at 2016-08-28 21:48:59 +0200
+
+
+Started GET "/assets/administrator/projects.self-3d1c65ff877a4c945c352a1a59fae79689721adabd66b0686837906f80e23ec6.js?body=1" for 127.0.0.1 at 2016-08-28 21:48:59 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-28 21:48:59 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-28 21:48:59 +0200
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-08-28 21:48:59 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-08-28 21:48:59 +0200
+
+
+Started GET "/administrator/projects/all" for 127.0.0.1 at 2016-08-28 21:49:59 +0200
+Processing by Administrator::ProjectsController#index as HTML
+  Rendered administrator/projects/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 86ms (Views: 85.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:50:00 +0200
+
+
+Started GET "/assets/administrator/projects.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-08-28 21:50:00 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-28 21:50:00 +0200
+
+
+Started GET "/assets/application.self-e6ab5ed7161efa398e64a326defc099b6b34b713fc2f56a1f7487a7e8fb500eb.css?body=1" for 127.0.0.1 at 2016-08-28 21:50:00 +0200
+
+
+Started GET "/assets/administrator/projects.self-59b26981edd9eeb0edfdd1ab3a26ba2500918e5a2a90bc480f08e8f5155578c5.js?body=1" for 127.0.0.1 at 2016-08-28 21:50:00 +0200
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for 127.0.0.1 at 2016-08-28 21:50:00 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-28 21:50:00 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-28 21:50:00 +0200
+
+
+Started GET "/assets/administrator/dashboard.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-08-28 21:50:00 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 127.0.0.1 at 2016-08-28 21:50:00 +0200
+
+
+Started GET "/administrator/dashboard" for 127.0.0.1 at 2016-08-28 21:50:04 +0200
+Processing by Administrator::DashboardController#index as HTML
+  Rendered administrator/dashboard/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 255ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/administrator/projects/all" for 127.0.0.1 at 2016-08-28 21:50:12 +0200
+Processing by Administrator::ProjectsController#index as HTML
+  Rendered administrator/projects/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notification" for 127.0.0.1 at 2016-08-28 21:50:17 +0200
+
+ActionController::RoutingError (No route matches [GET] "/notification"):
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+  vendor/cache/ruby/2.1.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/rack/logger.rb:20:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/cache/ruby/2.1.0/gems/activesupport-4.2.6/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:120:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/engine.rb:518:in `call'
+  vendor/cache/ruby/2.1.0/gems/railties-4.2.6/lib/rails/application.rb:165:in `call'
+  vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:541:in `handle_request'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:388:in `process_client'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/server.rb:270:in `block in run'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `call'
+  vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.3ms)
+  Rendered vendor/cache/ruby/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (7.5ms)
